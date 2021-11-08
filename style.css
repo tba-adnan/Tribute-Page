@@ -1,0 +1,38 @@
+body {
+    background-color: #ffffff;
+}
+
+h1 { 
+    text-align: center;
+    font-family: cursive;
+    color: rgb(235, 141, 0);
+
+} 
+
+hr {
+    height: 5px;
+    /* Setting the hr color */
+    background-color: #333;
+}
+
+img { 
+    height: 500px;
+    width: 450px;
+    float:right;
+    top:right;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+p {
+    width: 60%;
+    font-family: cursive;
+    color:black;
+    float: left;
+    padding: 0px left;
+
+  }
+
+  p::first-letter {
+    font-size: 199%;
+    color: #8A2BE2;
+  }
